@@ -1,0 +1,53 @@
+[
+  {
+    "productos": [
+      {
+        "nombre": "Champú",
+        "precio": "123",
+        "urlImagen": "https://www.sedal.com.ar/content/dam/unilever/sunsilk/argentina/pack_shot/7791293030661-1966781-png.png",
+        "descripcion": "Un nuevo producto",
+        "codigo": "1234",
+        "stock": "12",
+        "id": 1,
+        "timeStamp": 1662671018831
+      },
+      {
+        "nombre": "Champú",
+        "precio": "123",
+        "urlImagen": "https://www.sedal.com.ar/content/dam/unilever/sunsilk/argentina/pack_shot/7791293030661-1966781-png.png",
+        "descripcion": "Un nuevo producto",
+        "codigo": "1234",
+        "stock": "12",
+        "id": 1,
+        "timeStamp": 1662671018831
+      },
+      {
+        "nombre": "Champú",
+        "precio": "123",
+        "urlImagen": "https://www.sedal.com.ar/content/dam/unilever/sunsilk/argentina/pack_shot/7791293030661-1966781-png.png",
+        "descripcion": "Un nuevo producto",
+        "codigo": "1234",
+        "stock": "12",
+        "id": 1,
+        "timeStamp": 1662671018831
+      }
+    ],
+    "id": 1,
+    "timeStamp": "2022-10-07T03:54:49.353Z"
+  },
+  {
+    "productos": [],
+    "id": 2,
+    "timeStamp": "2022-10-07T03:54:54.073Z"
+  },
+  {
+    "productos": [],
+    "id": 3,
+    "timeStamp": "2022-10-11T11:57:17.330Z"
+  },
+  {
+    "productos": [],
+    "id": 4,
+    "timeStamp": "2022-10-11T11:57:28.147Z"
+  }
+]

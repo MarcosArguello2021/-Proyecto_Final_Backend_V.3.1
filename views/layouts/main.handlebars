@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.2/dist/normalizr.browser.min.js"></script>
+    <title>Tercera entrega del proyecto final</title>
+</head>
+<body>
+   {{#if boton}}
+    <div>
+      <img class="imagen" src="{{userData.foto}}"alt="{{userData.username}}"/>
+    <ul>
+      <li>Nombre {{userData.nombre}}</li>
+      <li>Edad:{{userData.edad}}</li>
+      <li>Direccion:{{userData.direccion}}</li>
+      </ul>     
+      </div>
+    <form action="/api/carrito/{{userData.username}}/productos">
+    <input type="submit" value="ver carrito">
+    </form>
+    <button type="button" id="producto">ver productos</button>
+    <button type="button" id="logOut">salir</button>
+    {{/if}}
+  {{{body}}}
+</body>
+</html>
